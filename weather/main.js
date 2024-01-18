@@ -26,29 +26,29 @@ var x=[
 
 //source
 var y=[
-    "icon/sunny.png",
-    "icon/overcast.png",
-    "icon/cloudy.png",
-    "icon/tornado.png",
-    "icon/fog.png",
-    "icon/shower.png",
-    "icon/rain.png",
-    "icon/thunderstroms.png",
-    "icon/snow.png",
-    "icon/fog.png",
+    "weather/icon/sunny.png",
+    "weather/icon/overcast.png",
+    "weather/icon/cloudy.png",
+    "weather/icon/tornado.png",
+    "weather/icon/fog.png",
+    "weather/icon/shower.png",
+    "weather/icon/rain.png",
+    "weather/icon/thunderstroms.png",
+    "weather/icon/snow.png",
+    "weather/icon/fog.png",
 ];
 
 var z=[
-    "icon/clear.png",
-    "icon/nightcloudy.png",
-    "icon/cloudy.png",
-    "icon/tornado.png",
-    "icon/fog.png",
-    "icon/shower.png",
-    "icon/night_rain.png",
-    "icon/thunderstroms.png",
-    "icon/snow.png",
-    "icon/fog.png",
+    "weather/icon/clear.png",
+    "weather/icon/nightcloudy.png",
+    "weather/icon/cloudy.png",
+    "weather/icon/tornado.png",
+    "weather/icon/fog.png",
+    "weather/icon/shower.png",
+    "weather/icon/night_rain.png",
+    "weather/icon/thunderstroms.png",
+    "weather/icon/snow.png",
+    "weather/icon/fog.png",
 ];
 
 function weather(input){
