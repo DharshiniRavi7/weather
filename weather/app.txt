@@ -1,0 +1,155 @@
+//variables
+var temp,
+maxtemp,
+mintemp,
+desc,
+wind,
+hum,
+main,
+day,night;
+
+//link
+"http://api.openweathermap.org/data/2.5/weather?"
+
+//api key
+
+//source
+var x=["clear sky","few clouds","sacttered clouds","tornado","shower rain","mist","thunderstorm","rain","snow","haze","broken clouds","drizzle"];
+var y=[
+ "icon/sunny.png",
+ "icon/overcast.png",
+ "icon/cloudy.png",
+ "icon/tornado.png",
+ "icon/fog.png",
+ "icon/showers.png",
+ "icon/rain.png",
+ "icon/thunderstrom.png",
+ "icon/snow.png",
+ "icon/fog.png"
+
+];
+var z=[
+ "icon/clear.png",
+ "icon/night cloudy.png",
+ "icon/cloudy.png",
+ "icon/tornado.png",
+ "icon/fog.png",
+ "icon/showers.png",
+ "icon/night rain.png",
+ "icon/thunderstrom.png",
+ "icon/snow.png",
+ "icon/fog.png"
+
+];
+
+//conditions
+if(dn>=night){
+
+  switch (desc){
+    
+     case x[0]:
+        im.src=z[0];
+        break;
+     
+     case x[1]:
+        im.src=z[1];
+        break;
+ 
+     case x[2]:
+        im.src=z[2];
+        break;
+  
+      case x[3]:
+         im.src=z[3];
+         break;
+      
+       case x[4]:
+          im.src=z[4];
+          break;
+      
+       case x[5]:
+          im.src=z[5];
+          break;
+       
+       case x[6]:
+          im.src=z[6];
+          break;
+
+       case x[7]:
+          im.src=z[7];
+          break;
+      
+       case x[8]:
+          im.src=z[8];
+          break;
+ 
+       case x[9]:
+        im.src=z[9];
+        break;
+  
+      case x[10]:
+         im.src=z[2];
+         break;
+
+       case x[11]:
+          im.src=z[5];
+          break;
+      }
+   else if(dn>=day){
+      switch (desc){
+         case x[0]:
+            im.src=y[0];
+            break;
+     
+         case x[1]:
+          im.src=y[1];
+          break;
+ 
+         case x[2]:
+           im.src=y[2];
+           break;
+  
+         case x[3]:
+          im.src=y[3];
+          break;
+      
+        case x[4]:
+          im.src=y[4];
+          break;
+      
+        case x[5]:
+          im.src=y[5];
+          break;
+       
+        case x[6]:
+          im.src=y[6];
+          break;
+
+        case x[7]:
+          im.src=y[7];
+          break;
+      
+        case x[8]:
+          im.src=y[8];
+          break;
+ 
+        case x[9]:
+          im.src=y[9];
+          break;
+  
+        case x[10]:
+          im.src=y[2];
+          break;
+
+        case x[11]:
+          im.src=y[5];
+          break;
+      }
+   }
+}
+
+
+
+
+ 
+   
